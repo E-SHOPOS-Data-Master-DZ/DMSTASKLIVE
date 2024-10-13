@@ -46908,7 +46908,7 @@ $1(a){var s=null
 return A.Vz(A.aA(A.au(a),s,s,s,s,s,s),a,t.N)},
 $S:79}
 A.QA.prototype={
-E(a){var s,r=null,q=A.au("tasks"),p=A.bH($.aK()).p2.c
+E(a){var s,r=null,q=A.au("completed_tasks"),p=A.bH($.aK()).p2.c
 q=A.aA(q,r,r,r,p==null?r:p.aC(B.n),r,r)
 p=A.au("search")
 p=A.jV(!0,r,A.au("search_for_task"),r,r,p,!1,B.ie,r,r)
@@ -47618,7 +47618,7 @@ $S:14}
 A.aCz.prototype={
 $3(a,b,c){var s=A.b7e(),r=this.a.d
 r===$&&A.a()
-return new A.Al(new A.EP("/main",s,"ETasks",$.b2v(),new A.aAB(),r,B.qW,$.b2k(),null),null)},
+return new A.Al(new A.EP("/server/config",s,"ETasks",$.b2v(),new A.aAB(),r,B.qW,$.b2k(),null),null)},
 $C:"$3",
 $R:3,
 $S:500}
