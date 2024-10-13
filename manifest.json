@@ -1,6 +1,6 @@
 {
-    "name": "e_tasks",
-    "short_name": "e_tasks",
+    "name": "ETasks",
+    "short_name": "ETasks",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
